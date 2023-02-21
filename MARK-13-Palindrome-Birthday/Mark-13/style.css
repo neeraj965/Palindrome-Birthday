@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    color: blueviolet;
+    padding: 1.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.container {
+
+    background-color:red;
+    text-align: center;
+    display: block;
+    width: 60%;
+    min-height: 40vh;
+    margin: auto;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+    border-radius: 4rem;
+
+}
+
+label{
+    display: block;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+input {
+    width: 40%;
+    padding: 1rem;
+    height: 1.5rem;
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: 1rem;
+    border: none;
+    margin: 1rem auto 0;
+    color: greenyellow;
+    font-weight: bold;
+    background-color:#262A53;
+    border-radius: 10px;
+}
+
+#result{
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: auto;
+    color: black;
+    font-weight: 400;
+}
+.footer{
+    background-color: black;
+    color: blueviolet;
+    padding: 1.5rem;
+    display: block;
+    margin-top: 6rem;
+    text-align: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer-link {
+    padding: 10px 10px;
+    margin: 0 0.2rem;
+    text-decoration: none;
+    color: blue;
+    display: inline-block;
+}
+
+.list-non-bullet {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
